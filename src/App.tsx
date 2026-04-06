@@ -173,6 +173,7 @@ function App() {
                 <img
                   src={c.flags?.png || c.flags?.svg}
                   alt=""
+                  role="img"
                   className="w-6 h-4 object-cover rounded-sm"
                 />
                 <span className="font-medium">{c.name.common}</span>
